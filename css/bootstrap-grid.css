@@ -64,8 +64,8 @@ html {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -120px;
+  margin-left: -120px;
 }
 
 .no-gutters {
@@ -88,7 +88,7 @@ html {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
+  padding-right: 55px;
   padding-left: 15px;
 }
 
@@ -695,6 +695,7 @@ html {
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
+
   }
   .col-lg-9 {
     -ms-flex: 0 0 75%;
