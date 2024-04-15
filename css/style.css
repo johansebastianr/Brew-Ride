@@ -1694,10 +1694,10 @@ button {
      width: 300px;
      height: 540px;
      background-color: #333;
-     border-radius: 21px;
      transform: rotate(30deg);
+     z-index: 0; /* Establece un índice z bajo para que esté detrás del <nav> */
  }
-
+ 
  .product-device::before {
      position: absolute;
      top: 10%;
