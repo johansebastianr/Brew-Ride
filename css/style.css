@@ -409,6 +409,7 @@ button {
 
 .titlepage {
      text-align: center;
+     font-family: 'Open Sans', sans-serif;
 }
 
 .titlepage p {
@@ -416,7 +417,7 @@ button {
      font-weight: 500;
      color: #252525;
      font-size: 17px;
-     line-height: 31px;
+     line-height: 35px;
      font-family: 'Open Sans', sans-serif;
 }
 
@@ -427,7 +428,7 @@ button {
      font-size: 16px;
      line-height: 31px;
      font-family: 'Open Sans', sans-serif;
-     margin-left: 19px;
+     margin-left: 30px;
 }
 
 
@@ -435,7 +436,7 @@ button {
 .titlepage h2 {
      font-size: 40px;
      color: #1f1f1f;
-     line-height: 45px;
+     line-height: 50px;
      font-weight: bold;
      padding: 0;
 }
@@ -2399,11 +2400,13 @@ span.about_icon {
 }
 
 .location_text.active a {
-     color: #33f033;
+     color: 
+     #F28705;
 }
 
 .location_text a:hover {
-    color: #33f033;
+    color: 
+    #F28705;
 }
 
 span.padding_left_15 {
@@ -2426,11 +2429,13 @@ span.padding_left_15 {
 }
 
 .footer_menu li.active a {
-    color: #33f033;
+    color: 
+    #F28705;
 }
 
 .footer_menu li a:hover {
-    color: #33f033;
+    color: 
+    #F28705;
 }
 
 .social_icon {
@@ -2494,8 +2499,9 @@ span.padding_left_15 {
     float: left;
     color: #ffffff;
     font-size: 16px;
+    border-radius: 30px;
     padding: 10px 0px;
-    background-color: #2d52aa;
+    background-color:  #F28705;
     text-transform: uppercase;
     text-align: center;
 }
@@ -2541,3 +2547,5 @@ span.padding_left_15 {
 .margin_top90 {
     margin-top: 90px;
 }
+
+/* registro */
