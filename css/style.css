@@ -644,6 +644,11 @@ button {
      padding-bottom: 50px;
 }
 
+.gallerys {
+     padding-top: 80px;
+     background-color: #eae7e7;
+}
+
 .gallery .titlepage {
      text-align: center;
 }
@@ -1030,6 +1035,15 @@ button {
      border-radius: 5px;
 }
 
+
+
+
+.main-layouts {
+     background-image: url(/images/Backdrop\ Light.png);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+}
+
 .main_form .textarea {
      border: #fff solid 1px;
      margin-bottom: 25px;
@@ -1370,6 +1384,8 @@ button:focus {
     outline: none;
 }
 
+
+
 ul,
 li,
 ol {
@@ -1401,6 +1417,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+   
 
  :focus {
     outline: 0;
@@ -1665,7 +1682,6 @@ button {
      font-family:'Open Sans', sans-serif;
      margin-top: 20px;
 }
-
 .product-device {
      position: absolute;
      right: 10%;
@@ -1675,9 +1691,9 @@ button {
      background-color: #333;
      border-radius: 21px;
      transform: rotate(30deg);
-   }
-   
-   .product-device::before {
+ }
+
+ .product-device::before {
      position: absolute;
      top: 10%;
      right: 10px;
@@ -1686,21 +1702,22 @@ button {
      content: "";
      background-color: rgba(255, 255, 255, .1);
      border-radius: 5px;
-   }
-   
-   .product-device-2 {
-     top: -25%;
+ }
+
+ .product-device-2 {
+     top: -17%;
      right: auto;
      bottom: 0;
      left: 5%;
      background-color: #e5e5e5;
-   }
-   
-   .product-device-container {
+ }
+
+ .product-device-container {
      display: flex;
      justify-content: space-around; /* Ajusta el espacio entre los elementos */
      margin-top: 20px; /* Puedes ajustar el margen según tus necesidades */
  }
+ 
    
    /*
     * Extra utilities
